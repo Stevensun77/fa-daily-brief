@@ -2,10 +2,10 @@ from scripts.ig_cards import tokens
 
 
 def test_bg_color_for_known_category():
-    assert tokens.bg_color_for_category("insurance") == "#16181c"
-    assert tokens.bg_color_for_category("investment") == "#0f1620"
-    assert tokens.bg_color_for_category("finance") == "#10201a"
-    assert tokens.bg_color_for_category("legacy") == "#1c140f"
+    assert tokens.bg_color_for_category("insurance") == "#3d3d41"
+    assert tokens.bg_color_for_category("investment") == "#24314c"
+    assert tokens.bg_color_for_category("finance") == "#1a2919"
+    assert tokens.bg_color_for_category("legacy") == "#342016"
 
 
 def test_bg_color_for_unknown_category_defaults_to_investment():

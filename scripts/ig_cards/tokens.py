@@ -26,10 +26,10 @@ FONT_SIZE_CTA_LINE = 65
 FONT_SIZE_META = 36
 
 CATEGORY_BG_COLORS = {
-    "investment": "#0f1620",
-    "insurance": "#16181c",
-    "finance": "#10201a",
-    "legacy": "#1c140f",
+    "investment": "#24314c",
+    "insurance": "#3d3d41",
+    "finance": "#1a2919",
+    "legacy": "#342016",
 }
 DEFAULT_CATEGORY = "investment"
 

@@ -41,7 +41,7 @@ def test_build_cards_html_contains_correct_content_per_card():
 def test_build_cards_uses_category_bg_color():
     cards = card_builder.build_cards(SAMPLE_DATA)
     for card in cards:
-        assert "#16181c" in card["html"]  # insurance 底色
+        assert "#3d3d41" in card["html"]  # insurance 底色
 
 
 def test_build_cards_supports_variable_quote_count():

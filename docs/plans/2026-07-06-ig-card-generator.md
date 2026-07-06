@@ -16,10 +16,12 @@
 - 卡片尺寸:`1080 x 1350` px(4:5),Playwright viewport 與輸出 PNG 都是這個尺寸。
 - 內容邊界 `CONTENT_MARGIN = 86` px:金線、底部列(IG 帳號/頁碼)、所有文字區塊的水平內距都用這個值,不得各自使用不同數字。
 - 底色 token(依新聞焦點領域):
-  - `investment` → `#0f1620`(深海軍藍)
-  - `insurance` → `#16181c`(鐵灰霧面)
-  - `finance` → `#10201a`(深綠霧面)
-  - `legacy` → `#1c140f`(深棕霧面)
+  - `investment` → `#24314c`(深海軍藍)
+  - `insurance` → `#3d3d41`(鐵灰)
+  - `finance` → `#1a2919`(深綠)
+  - `legacy` → `#342016`(深棕)
+
+  (以上色碼 2026-07-06 執行 Task 6 後,依冠弘既有 IG 底圖實測平均色更新過,原計畫撰寫時是暫定值。)
   - 未知類別(含「社會大小事」)一律 fallback 到 `investment`。
 - 字體:`Noto Sans TC`,透過 Google Fonts CDN 載入,URL 固定為 `https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap`。
 - 文字顏色:主文字 `#f5f3ee`、內文次要文字 `#c7cdd6`、金線 `#c9a86a`、金句文字 `#e8c98a`、底部小字(IG 帳號/頁碼)`#6b7480`。
